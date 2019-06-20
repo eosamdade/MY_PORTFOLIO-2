@@ -104,6 +104,33 @@
     cursor: pointer;
 }
 
+/* /this is the styles for the .portfolio */
+
+.left {
+    width: 100%;
+}
+
+.port {
+    width:80%;
+    padding: 10%;
+    padding-top: 0;
+}
+
+.p-title {
+    background-color: #ffffff;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    left: 10%;
+    top:500px;
+}
+
+
+
+.p-title:hover {
+    opacity: 0.8; 
+} 
+
 @media screen and (min-width: 768px)  {
     .header {
         height: 400px;
@@ -137,6 +164,29 @@
         padding-right: 10%;
         padding-bottom: 10%;
         font-size: 18px;
+    }
+
+    /* /this is the styles for the .portfolio */
+
+    .left {
+        width: 100%;
+        top: 100px;
+        position: relative;
+    }
+
+    .port {
+        width:80%;
+        padding-left:10%;
+        padding-top:0;
+    }
+
+    .p-title {
+        background-color: #ffffff;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        left: 10%;
+        top:500px;
     }
 }
 
