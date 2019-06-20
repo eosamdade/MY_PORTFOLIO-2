@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.header {
+    background-image: url(../images/eight_horns.png);
+    height: 800px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    border-bottom: 8px solid black;
+    position: relative;
+}
+
+#name {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    width:100%;
+}
+
+#name:hover {
+    cursor: pointer;
+    color:red;
+}
+
+.box {
+    text-align: center;
+    font-size: 20px; 
+    color: red;
+    font-style: bold;
+    height: 50px;
+    /* background-color: cornflowerblue; */
+    width: 40%;
+    position: relative;
+    left:30%;
+    top:400px;
+    margin:10px;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.main {
+    position: relative;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 25px;
+    padding-top:50px;
+    
+    
+}
+
+.title {
+    text-align: center;
+    background-color: none;
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    background-color: none;
+}
+
+.portrait {
+    width:80%;
+    padding: 10%;
+     /* position: relative; */
+    /* left:10%; */
+    /* padding-top: 20px; */
+    /* top: 20px; */
+    /* padding-bottom: 60px; */
+}
+
+.txt {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+
+#footer {
+    position: relative;
+    margin: 0px;
+    border: 0px;
+    padding: 20px;
+    height: 100px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.icon {
+    height: 50px;
+}
+
+.icon:hover {
+    height: 75px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px)  {
+    .header {
+        height: 400px;
+        width: 100%;
+    }
+
+    #name {
+        top: 75px;
+    }
+    .main {
+        position: relative;
+        font-size: 25px;
+        padding-top:150px;
+        
+    }
+
+    .box {
+        width: 40%;
+        top:150px;
+    }
+
+    .portrait {
+        width:60%;
+        padding-left :20%;
+        padding-right :20%;
+
+    }
+
+    .txt {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1000px)  {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        background-image:url(../images/eight_horns.png);
+    }
+    
+    .header {
+        background-image: none;
+        height: 400px;
+        width: 100%;
+        /* background-color:lightgray; */
+        border-bottom: 5px solid black;
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+        /* font-weight: 50px; */
+        /* background-image:url(../images/eight_horns.png); */
+    }
+    
+    #name {
+        position:absolute;
+        top:347px;
+        left:15%;
+        width: 30%;
+        background-color: black;
+        color: white;
+    }
+    
+    #name:hover {
+        cursor: pointer;
+        color: yellow;
+    }
+    
+    .box { 
+        width: 120px;
+        float: left;
+        left:60%;
+        top:330px;
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .about {
+        background-color:whitesmoke;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-top:
+    }
+
+    .portfolio {
+        background-color:whitesmoke;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-top:
+    }
+
+    .contact {
+        background-color:whitesmoke;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-top:
+    }
+
+    
+    .content {
+        margin: 0px;
+        border: 0px;
+        /* height: 100%; */
+        /* width: 100%; */
+        border-bottom: 10px solid gray;
+        /* background-image: url() */
+        background-color: #ffffff;
+        /* opacity: 0.5; */
+        padding: 150px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+    }
+    
+    .main {
+        background-color: #ffffff;
+        width: 80%;
+        height:30px;
+        padding:1%;
+        opacity: none;
+        position: relative;
+        left: 10%;
+        border-bottom: 8px solid gray;
+        text-align: left;
+        color: red;
+        
+    
+        /* margin: 0px;
+        border: 1px;
+        padding: 15px;
+        background-color: #ffffff;
+        height:30px;
+        width: 100%;
+        border-bottom: 8px solid #385273;
+        text-align: left;
+        color: #f24150; */
+    }
+    
+    .wrapper {
+    
+        background:none;
+        width: 80%;
+        padding: 1%;
+        position: relative;
+        left: 10%;
+         
+        
+        /* margin: 0px;
+        border: none;
+        padding: 20%;
+        background-color:#ffffff;
+        height:100%;
+        width: 100%;
+        text-align: left;
+        font-size: 100%;
+        position: relative; */
+    }
+    
+    .txt {
+        padding: 5%;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    /* p {padding: 20px;} */
+    
+    .profile-pic {
+        width: 300px;
+        float: left;
+    }
+    
+    #footer {
+        position: relative;
+        margin: 0px;
+        border: 0px;
+        padding: 20px;
+        height: 100px;
+        background-color: black;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } 
+    
+    /* css styles for the portfolio page */
+    
+    .port {
+        width: 100%;
+        /* height: 100%; */
+    }
+    
+    /* .webdesign {
+        position: absolute;
+        left: 500px;
+    
+    } */
+    
+    .left {
+        /* float: left; */
+        /* padding-left: 10%;
+        padding-top: 10%; */
+        position: relative;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin: 10px;
+        width: 30%;
+    }
+    
+    .left:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        width: 32%;
+    } 
+    
+    /* "can achieve the same thing with .left" */
+    .first {
+        /* position: absolute;
+        left: 150px; */
+    }
+    
+    /* .second {
+        position: absolute;
+        left: 600px;
+    } */
+    
+    /* .third {
+        position: absolute;
+        left: 1050px;
+    } */
+    
+    /* .fourth {
+        position: absolute;
+        left: 1500px;
+    } */
+    
+    .p-title {
+        width: 100%;
+        text-align: center;
+        background-color: #f24150;
+        position: absolute;
+        bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .p-title:hover {
+        position: absolute;
+        bottom: 105px;
+        
+    } 
+    
+    .form {
+        margin-top: 50px;
+    }
+    
+    .form-control {
+        width: 600px;
+        background: white;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid lightgrey;
+        border-right: 2px solid lightgrey;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    
+    input {
+        height: 45px;
+    }
+    
+    .sub {
+    background-color: #2d565e;
+    /* width: 400px;
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+    /* font-size: ;
+    font-weight: ; */
+    margin-top: 20px;
+    color: #ffffff;
+    }
+    
+    .sub:hover {
+        background-color: #f24150;
+        cursor: pointer;
+    }
+    
+    .contact-form {
+        margin-top: 50px;
+        position: absolute;
+        left: 700px;
+    
+        /* float: right; */
+    }
+    
+    .contact-title {
+        margin: 0px;
+        border: 1px;
+        padding: 15px;
+        background-color: #ffffff;
+        height:30px;
+        width: 100%;
+        border-bottom: 8px solid #385273;
+        text-align: left;
+        color: #f24150; 
+    }
+    
+    .icon {
+        height: 50px;
+    }
+    
+    .icon:hover {
+        height: 75px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    
+
+    
+}
+
+/* @media screen and (max-width: 700px)  {   
+} body {
+    margin-left: 0;
+    margin-right: 0;
+} */
