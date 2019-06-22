@@ -31,7 +31,6 @@
     color: red;
     font-style: bold;
     height: 50px;
-    /* background-color: cornflowerblue; */
     width: 40%;
     position: relative;
     left:30%;
@@ -46,11 +45,8 @@
 
 .main {
     position: relative;
-    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 25px;
     padding-top:50px;
-    
-    
 }
 
 .title {
@@ -120,11 +116,59 @@
     top:500px;
 }
 
-
-
 .p-title:hover {
     opacity: 0.8; 
 } 
+
+/* this is the styles for the contatct page */
+
+.wrapper-cont {
+    /* background-color: #f24150; */
+    position: relative;
+    top: 50px;
+    height: 650px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.formHead {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding-bottom: 10px
+}
+
+   
+.form-control {
+    width: 80%;
+    background-color: white;
+    position: relative;
+    left:10%;
+    margin-bottom: 20px;
+}
+    
+input {
+    height: 45px; 
+}
+    
+.sub {
+    background-color: black;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+    
+.sub:hover {
+    background-color: #f24150;
+    cursor: pointer;
+}
+
+
 
 @media screen and (min-width: 768px)  {
     .header {
@@ -163,7 +207,39 @@
 
     /* /this is the styles for the .portfolio */
 
+    .album {
+        background:none;
+        width: 80%;
+        padding: 1%;
+        position: relative;
+        left: 10%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     .left {
+        width: 350px;
+        background-color:none;
+        border:0;
+        position: relative;
+        left: 5%;
+        top:0;
+    }
+
+    .p-title {
+        position: relative;
+        cursor: pointer;
+        top: 60%;
+        font-size: 26px;
+    }
+
+    .port:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        width: 82%;
+    }
+
+    /* .left {
         width: 100%;
         top: 100px;
         position: relative;
@@ -183,10 +259,70 @@
         left: 10%;
         top:500px;
     }
+
+    .port:hover {
+        opacity: .5;
+        cursor: pointer;
+    } */
+
+    /* this is the styles for the contatct page */
+
+    .wrapper-cont {
+        /* background-color: #f24150; */
+        position: relative;
+        top: 50px;
+        height: 650px;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+
+    .formHead {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        padding-bottom: 10px
+    }
+
+    
+    .form-control {
+        width: 80%;
+        background-color: white;
+        position: relative;
+        left:10%;
+        margin-bottom: 20px;
+    }
+        
+    input {
+        height: 45px; 
+    }
+
+    .sub {
+        width: 60%;
+        left:20%;
+        background-color: black;
+        margin-top: 50px;
+        color: #ffffff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+        
+    .sub:hover {
+        background-color: #f24150;
+        cursor: pointer;
+    }
+
 }
 
 @media screen and (min-width: 1000px)  {
-    
+    .box:hover{ 
+        background-color: black;
+        color:white
+    }
+
     body {
         margin-left: 10%;
         margin-right: 10%;
@@ -197,12 +333,10 @@
         background-image: none;
         height: 400px;
         width: 100%;
-        /* background-color:lightgray; */
         border-bottom: 5px solid black;
         font-family: 'Roboto Slab', serif;
         position: relative;
-        /* font-weight: 50px; */
-        /* background-image:url(../images/eight_horns.png); */
+    
     }
     
     #name {
@@ -246,19 +380,13 @@
         background-color:whitesmoke;
         border-left: 3px solid black;
         border-bottom: 3px solid black;
-
     }
 
-    
     .content {
         margin: 0px;
         border: 0px;
-        /* height: 100%; */
-        /* width: 100%; */
         border-bottom: 10px solid gray;
-        /* background-image: url() */
         background-color: #ffffff;
-        /* opacity: 0.5; */
         padding: 150px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position: relative;
@@ -291,8 +419,6 @@
         font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
     }
-    
-    /* p {padding: 20px;} */
     
     .profile-pic {
         width: 300px;
@@ -333,10 +459,20 @@
 
     .p-title {
         position: relative;
+        cursor: pointer;
         top: 60%;
+        font-size: 32px;
     }
+
+    .port:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        width: 82%;
+    } 
+
     
-    
+
+    /* css styles for the contact page */
     .form {
         margin-top: 50px;
     }
