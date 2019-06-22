@@ -68,11 +68,6 @@
 .portrait {
     width:80%;
     padding: 10%;
-     /* position: relative; */
-    /* left:10%; */
-    /* padding-top: 20px; */
-    /* top: 20px; */
-    /* padding-bottom: 60px; */
 }
 
 .txt {
@@ -191,6 +186,7 @@
 }
 
 @media screen and (min-width: 1000px)  {
+    
     body {
         margin-left: 10%;
         margin-right: 10%;
@@ -236,21 +232,21 @@
         background-color:whitesmoke;
         border-left: 3px solid black;
         border-bottom: 3px solid black;
-        padding-top:
+         
     }
 
     .portfolio {
         background-color:whitesmoke;
         border-left: 3px solid black;
         border-bottom: 3px solid black;
-        padding-top:
+        
     }
 
     .contact {
         background-color:whitesmoke;
         border-left: 3px solid black;
         border-bottom: 3px solid black;
-        padding-top:
+
     }
 
     
@@ -279,17 +275,6 @@
         border-bottom: 8px solid gray;
         text-align: left;
         color: red;
-        
-    
-        /* margin: 0px;
-        border: 1px;
-        padding: 15px;
-        background-color: #ffffff;
-        height:30px;
-        width: 100%;
-        border-bottom: 8px solid #385273;
-        text-align: left;
-        color: #f24150; */
     }
     
     .wrapper {
@@ -299,17 +284,6 @@
         padding: 1%;
         position: relative;
         left: 10%;
-         
-        
-        /* margin: 0px;
-        border: none;
-        padding: 20%;
-        background-color:#ffffff;
-        height:100%;
-        width: 100%;
-        text-align: left;
-        font-size: 100%;
-        position: relative; */
     }
     
     .txt {
@@ -338,75 +312,35 @@
     } 
     
     /* css styles for the portfolio page */
-    
-    .port {
-        width: 100%;
-        /* height: 100%; */
-    }
-    
-    /* .webdesign {
-        position: absolute;
-        left: 500px;
-    
-    } */
-    
-    .left {
-        /* float: left; */
-        /* padding-left: 10%;
-        padding-top: 10%; */
+    .album {
+        background:none;
+        width: 80%;
+        padding: 1%;
         position: relative;
-        color: #ffffff;
-        background-color: #ffffff;
-        margin: 10px;
-        width: 30%;
+        left: 10%;
+        display: flex;
+        flex-flow: row wrap;
     }
-    
-    .left:hover {
-        opacity: 0.5;
-        cursor: pointer;
-        width: 32%;
-    } 
-    
-    /* "can achieve the same thing with .left" */
-    .first {
-        /* position: absolute;
-        left: 150px; */
+
+    .left {
+        width: 450px;
+        background-color:none;
+        border:0;
+        position: relative;
+        left: 10%;
+        top:0;
     }
-    
-    /* .second {
-        position: absolute;
-        left: 600px;
-    } */
-    
-    /* .third {
-        position: absolute;
-        left: 1050px;
-    } */
-    
-    /* .fourth {
-        position: absolute;
-        left: 1500px;
-    } */
-    
+
     .p-title {
-        width: 100%;
-        text-align: center;
-        background-color: #f24150;
-        position: absolute;
-        bottom: 100px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        position: relative;
+        top: 60%;
     }
     
-    .p-title:hover {
-        position: absolute;
-        bottom: 105px;
-        
-    } 
     
     .form {
         margin-top: 50px;
     }
+    
     
     .form-control {
         width: 600px;
@@ -425,11 +359,6 @@
     
     .sub {
     background-color: #2d565e;
-    /* width: 400px;
-    height: 60px;
-    font-family: 'Roboto Slab', serif;
-    /* font-size: ;
-    font-weight: ; */
     margin-top: 20px;
     color: #ffffff;
     }
