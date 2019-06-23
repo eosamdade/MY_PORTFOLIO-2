@@ -473,56 +473,54 @@ input {
     
 
     /* css styles for the contact page */
+    .wrapper-cont {
+        /* background-color: #f24150; */
+        position: relative;
+        top: 50px;
+        height: 550px;
+        width: 70%;
+        left: 15%;
+    }
+    
     .form {
         margin-top: 50px;
     }
     
+    .formHead {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        padding-bottom: 10px
+    }
     
+       
     .form-control {
-        width: 600px;
-        background: white;
-        border: none;
-        outline: none;
-        border-bottom: 2px solid lightgrey;
-        border-right: 2px solid lightgrey;
-        font-size: 24px;
-        margin-bottom: 16px;
+        width: 80%;
+        background-color: white;
+        position: relative;
+        left:10%;
+        margin-bottom: 20px;
     }
-    
+        
     input {
-        height: 45px;
+        height: 45px; 
     }
-    
+        
     .sub {
-    background-color: #2d565e;
-    margin-top: 20px;
-    color: #ffffff;
+        background-color: black;
+        margin-top: 50px;
+        color: #ffffff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
     }
-    
+        
     .sub:hover {
         background-color: #f24150;
         cursor: pointer;
     }
     
-    .contact-form {
-        margin-top: 50px;
-        position: absolute;
-        left: 700px;
-    
-        /* float: right; */
-    }
-    
-    .contact-title {
-        margin: 0px;
-        border: 1px;
-        padding: 15px;
-        background-color: #ffffff;
-        height:30px;
-        width: 100%;
-        border-bottom: 8px solid #385273;
-        text-align: left;
-        color: #f24150; 
-    }
     
     .icon {
         height: 50px;
@@ -537,9 +535,3 @@ input {
 
     
 }
-
-/* @media screen and (max-width: 700px)  {   
-} body {
-    margin-left: 0;
-    margin-right: 0;
-} */
